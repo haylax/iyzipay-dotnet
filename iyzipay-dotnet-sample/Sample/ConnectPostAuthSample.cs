@@ -16,6 +16,7 @@ namespace IyzipaySample.Sample
             request.PaymentId = "1";
             request.PaidPrice = "0.3";
             request.Ip = "127.0.0.1";
+            request.Currency = "TRY";
 
             ConnectPaymentPostAuth paymentPostAuth = ConnectPaymentPostAuth.Create(request, options);
 

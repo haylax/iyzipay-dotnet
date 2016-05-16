@@ -21,6 +21,7 @@ namespace IyzipaySample.Sample
             request.Installment = 1;
             request.PaidPrice = "1.0";
             request.Price = "1.0";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardHolderName = "John Doe";
@@ -54,6 +55,7 @@ namespace IyzipaySample.Sample
             request.Installment = 1;
             request.PaidPrice = "1.0";
             request.Price = "1.0";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardToken = "card token";

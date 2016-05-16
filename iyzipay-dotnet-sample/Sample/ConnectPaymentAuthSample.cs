@@ -17,17 +17,18 @@ namespace IyzipaySample.Sample
             request.BuyerEmail = "email@email.com";
             request.BuyerId = "B2323";
             request.BuyerIp = "127.0.0.1";
-            request.ConnectorName = "connector name";
+            request.ConnectorName = "517-isbank";
             request.Installment = 1;
             request.PaidPrice = "1.0";
             request.Price = "1.0";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
-            paymentCard.CardHolderName = "John Doe";
-            paymentCard.CardNumber = "5528790000000008";
-            paymentCard.ExpireMonth = "12";
-            paymentCard.ExpireYear = "2030";
-            paymentCard.Cvc = "212";
+            paymentCard.CardHolderName = "Semih Hakkıoğlu";
+            paymentCard.CardNumber = "5401186394057013";
+            paymentCard.ExpireMonth = "05";
+            paymentCard.ExpireYear = "2017";
+            paymentCard.Cvc = "794";
             paymentCard.RegisterCard = 0;
             request.PaymentCard = paymentCard;
 
@@ -54,6 +55,7 @@ namespace IyzipaySample.Sample
             request.Installment = 1;
             request.PaidPrice = "1.0";
             request.Price = "1.0";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardToken = "card token";

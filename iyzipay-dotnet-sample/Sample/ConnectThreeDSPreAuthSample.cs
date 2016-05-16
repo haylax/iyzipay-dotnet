@@ -21,6 +21,7 @@ namespace IyzipaySample.Sample
             request.PaidPrice = "1.0";
             request.Price = "1.0";
             request.CallbackUrl = "https://www.merchant.com/callbackUrl";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardHolderName = "John Doe";
@@ -55,6 +56,7 @@ namespace IyzipaySample.Sample
             request.PaidPrice = "1.0";
             request.Price = "1.0";
             request.CallbackUrl = "https://www.merchant.com/callbackUrl";
+            request.Currency = "TRY";
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardToken = "card token";
